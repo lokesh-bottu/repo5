@@ -1,0 +1,467 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    height: 120px;
+    width:1440px;
+    background-color:white;
+}
+
+
+.header a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.main_heading{
+    position: relative;
+    text-align: center;
+    font: normal normal bold 28px/36px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+    padding: 28px;
+    box-sizing: border-box;
+}
+
+.image_class {
+    padding-top: 80px;
+    background-image: url("image1.png");
+    background-size: cover;
+    height: 1224px;
+    width: 1440px;
+    
+}
+.form_and_text{
+    display:flex;
+    flex-direction: row;
+}
+.givehope{
+    margin-left: 100px;
+    width: 384px;
+    height:362px;
+    font: normal normal normal 72px/76px Flood Std;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.form{
+    color: white;
+    padding-top: 58px;
+    padding-left: 60px;
+    font-size:14px ;
+    margin-left:160px;                 
+    width: 640px;
+    height: 1016px;
+    background: #354463 0% 0% no-repeat padding-box;
+    /* background-color: red; */
+}
+
+
+.names{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.first_name{
+
+    height: 62px;
+    width:224px;
+    box-sizing: border-box;
+    background:transparent;
+    border-bottom: 2px solid #C1F7D5;
+}
+
+.last_name{
+    margin-left:62px;
+    height: 62px;
+    width: 224px;
+    box-sizing: border-box;
+    background-color:transparent;
+    border-bottom: 2px solid #C1F7D5;
+}
+
+.form_input{
+    padding-top: 13px;
+    border: none;
+    outline: none;
+    background:transparent;
+}
+.input_field{
+    background: transparent;
+    border: none;
+    /* border-bottom: 2px solid #C1F7D5; */
+    padding-bottom: 10px;
+    
+}
+.street{
+    margin-top: 26px;
+    width:512px;
+    height:61px;
+    border-bottom: 2px solid #C1F7D5;
+}
+
+
+.addresses{
+    margin-top: 23px;
+    display: flex;
+    flex-direction: row;
+}
+.city{
+    height: 65px;
+    width: 224px;
+    box-sizing: border-box;
+    border-bottom:2px solid #C1F7D5;
+}
+.state{
+    margin-left: 62px;
+    height: 65px;
+    width: 96px;
+    box-sizing: border-box;
+    border-bottom:2px solid #C1F7D5;
+}
+
+.pin{
+    margin-left: 33px;
+    width:96px;
+    border-bottom:2px solid #C1F7D5;
+}
+.email_address{
+    margin-top:23px;
+    width: 512px;
+    height:64px;
+    border-bottom:2px solid #C1F7D5;
+}
+.payment{
+    margin-top: 62px;
+    font: normal normal bold 28px/36px Helvetica;
+    color:white;
+}
+.credit_card{
+    margin-top:28px;
+    width: 512px;
+    border-bottom:2px solid #C1F7D5;
+}
+.credit_info{
+    margin-top:23px;
+    display: flex;
+    flex-direction: row;
+}
+
+.expire{
+    width:96px;
+    height: 65px;
+    border-bottom:2px solid #C1F7D5;
+}
+.year{
+    width:96px;
+    height: 65px;
+    margin-left: 32px;
+    border-bottom:2px solid #C1F7D5;
+}
+.security{
+    width:96px;
+    height: 65px;
+    margin-left:64px;
+    border-bottom:2px solid #C1F7D5;
+
+}
+.adds{
+    margin-top: 57px;
+    width: 512px;
+    height:89px;
+    font-size: 28px;
+    font: normal normal bold 28px/36px Helvetica;
+    
+}
+
+
+.submit_button {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.goback {
+    margin-top: 8px;
+}
+
+.gobackbutton {
+    color: #C1F7D5; /* Set the text color to #C1F7D5 */
+    font: normal normal 300 14px/52px Helvetica;
+    letter-spacing: -0.16px;
+    opacity: 1;
+    text-decoration: none; /* Remove the underline */
+}
+
+.Button_class {
+    margin-left: 195px;
+    height: 56px;
+    width: 256px;
+    height: 56px;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    opacity: 1;
+}
+
+.sub_button {
+    margin-top: 15px;
+    margin-left: 35px;
+    height: 27px;
+    background: transparent;
+    border: none;
+    text-align: center;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.footer_div{
+    margin-top: 80px;
+    height:150px;
+    width:1440px;
+    display: flex;
+    flex-direction: row;
+    }
+.downheading{
+    margin-left: 160px;
+    text-align: left;
+    padding-top: 40px;
+    text-align: left;
+    font: normal normal bold 22px/28px Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.contactus{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.links{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.followus{
+    margin-left: 96px;
+    text-align: left;
+    font: normal normal 300 14px/20px Helvetica;
+    letter-spacing: -0.14px;
+    color: #354463;
+    opacity: 1;
+}
+.insidecontact{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+
+}
+.insidelinks{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+}
+.insidefollow{
+    padding-top: 10px;
+    border-top:2px solid #C1F7D5;
+}
+.stopclimate{
+    margin-left: 96px;
+    font: normal normal normal 30px/32px Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    opacity: 1;
+}
+.row1,.row2{
+    display:flex;
+    flex-direction: row;
+}
+
+
+@media (max-width: 786px) {
+    .body{
+        width: 376px;
+        overflow-x: hidden;
+    }
+
+
+    .image_class{
+        /* margin-left: 32px; */
+        width: 420px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .form_and_text {
+      flex-direction: column;
+    }
+    .givehope {
+        font: normal normal normal 32px/46px Flood Std;
+        order :1;
+        width: 312px;
+        height: 79px;
+        /* text-align: center;  */
+      }
+    .form {
+      order: 2; 
+        width: 312px;
+        height: 816px;
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-right: 10px;
+        padding-left: 42px;
+        padding-right: 10px;
+        /* box-sizing: border-box; */
+    }
+
+    .names,
+    .street,
+    .addresses,.email_address,.credit_info,.credit_card{
+        margin-top: 26px;
+        margin-left: 0px;
+        width: 248px; 
+        height: 45px; 
+}
+    .street.email_address,.credit_card{
+        width: 100%;
+    }
+    .credit_card{
+        width:255px ;
+    }
+
+    .names {
+        width: 248px;
+        height: 45px;
+        display: flex;
+        flex-direction: row;
+      }
+      
+      .first_name {
+        height: 45px;
+        width: 39%;
+        box-sizing: border-box;
+        background: transparent;
+        border-bottom: 2px solid #C1F7D5;
+      }
+      
+      .last_name {
+        height: 45px;
+        width: 39%;
+        box-sizing: border-box;
+        background: transparent;
+        border-bottom: 2px solid #C1F7D5;
+      }
+      
+      .form_input {
+        padding-top: 13px;
+        border: none;
+        outline: none;
+        background: transparent;
+      }
+      
+      .input_field {
+        background: transparent;
+        border: none;
+        padding-bottom: 10px;
+      }
+      
+      
+      .addresses {
+        margin-top: 23px;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+      }
+      
+      .city {
+        height: 50px;
+        width: 60px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #C1F7D5;
+      }
+      
+      .state {
+        margin-left: 32px;
+        height: 50px;
+        width: 60px;
+        box-sizing: border-box;
+        border-bottom: 2px solid #C1F7D5;
+      }
+      
+      .pin,.expire,.security,.year {
+        margin-left: 33px;
+        height: 50px;
+        width: 70px;
+        border-bottom: 2px solid #C1F7D5;
+      }
+      .expire{
+        margin-left: 0px;
+      }
+      .adds{
+        width: 249px;
+        height: 83px;
+        margin-top: 56px;
+        font: normal normal bold 18px/22px Helvetica;
+      }
+      .submit_button{
+        margin-top: 15px;
+        width: 249px;
+        height: 100px;
+        flex-direction: column-reverse;
+      }
+      .Button_class{
+        margin-left: 0px;
+      }
+      .sub_button{
+        margin-top: 5px;
+      }
+      .footer_div{
+        padding-left: 20px;
+        margin-top: 0px;
+        display: flex;
+        flex-direction: column;
+        width:376px;
+        height: 600px;
+      }
+      .downheading{
+        padding-top: 0px;
+        margin-top: 0px;
+        font: normal normal bold 18px/22px Helvetica;
+        margin-left: 32px;
+      }
+      .row1,.row2{
+        display:flex;
+        flex-direction: row;
+      }
+      .row1{
+        margin-top: 67px;
+      }
+      .row2{
+        margin-top:50px;
+      }
+      .links{
+        width:77px;
+        margin-left: 32px;
+        height: 100px;
+      }
+      .followus{
+        margin-left: 142px;
+      }
+      .stopclimate{
+        margin-top: 50px;
+        margin-left: 100px;
+      }
+      .header{
+        width: 100%;
+        text-align: center;
+      }
+  }
